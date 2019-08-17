@@ -1,0 +1,33 @@
+.navbar-brand .title {
+  color: white;
+}
+
+// round images
+
+.image {
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+  }
+}
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.linkto {
+  background-color: transparent !important;
+}
+
+.notification {
+  position: absolute !important;
+  z-index: 9;
+  left: 50%;
+  width: auto;
+  top: 9%;
+  transform: translate(-50%, -20%);
+  min-width: 500px;
+}
+
+.notification p {
+  font-size: 18px;
+}

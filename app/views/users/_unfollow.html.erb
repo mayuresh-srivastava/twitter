@@ -1,0 +1,4 @@
+<% relationship = find_relationship current_user, @user %>
+<%= form_with url: "/relationships/#{relationship.id}", html: { method: :delete } do |f| %>
+  <%= f.submit 'Unfollow', class: "btn btn-primary" %>
+<% end %>
